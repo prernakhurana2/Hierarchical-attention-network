@@ -8,9 +8,6 @@ from keras.regularizers import l2
 from keras import backend as K
 
 earlyStopping = EarlyStopping(monitor='val_loss', patience=1, verbose=0)
-architecture = 'HAN'
-weight_fname = architecture
-save_best_model_file = weight_fname+'.h5'
 saveBestModel = ModelCheckpoint(save_best_model_file, monitor = 'val_loss', verbose=0, save_best_only = True, save_weights_only = True)
 
 embedding_layer = Embedding(len(w2indx) + 1,
