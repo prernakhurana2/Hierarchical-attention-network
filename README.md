@@ -3,3 +3,5 @@ My implementation of "Hierarchical Attention Networks for Document Classificatio
 in Keras 
 
 Use data from  http://ir.hit.edu.cn/~dytang/ to run this algorithm
+
+Also see https://groups.google.com/forum/#!topic/keras-users/IWK9opMFavQ 
